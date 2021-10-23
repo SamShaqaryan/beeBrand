@@ -1,0 +1,33 @@
+.filter{
+    color: #4B4B4B;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 30px;
+    height: 35px;
+    line-height: 37px;
+    margin: 0 5px;
+    padding: 0 17px;
+    letter-spacing: 0.04em;
+    &:hover{
+        color:#FF8008;
+        border-bottom: 1px solid #FF8008;
+         
+     }
+
+}
+.portfolio-material { 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap:25px;
+    grid-column-gap: 20px;
+    overflow: hidden;
+    .portfolio-items { 
+        width: 415px;
+        height: 412px;
+        background: aqua;
+    }
+}

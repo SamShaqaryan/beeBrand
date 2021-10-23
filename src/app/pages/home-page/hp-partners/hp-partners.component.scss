@@ -1,0 +1,11 @@
+.partners-container { 
+    max-width: 1800px;
+    margin-left:50px;
+    margin-right: 50px;
+    .partners-photo { 
+        display: flex;
+        justify-content: space-between;     
+        flex-wrap: wrap; 
+        
+    }
+}

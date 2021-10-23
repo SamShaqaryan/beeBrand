@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.text-align-center{ 
+    text-align: center;
+}
+.heading-size{ 
+    padding-top:100px;
+    padding-bottom:30px;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 44px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+}
+
+.heading-paragraph { 
+    font-size: 20px;
+    line-height: 24px;
+    margin:0 auto;
+    letter-spacing: 0.04em;
+    padding-bottom: 46px;
+    max-width: 736px;
+    width: 100%;
+}
+.btn-center-styles{ 
+    display: block;
+    margin:0 auto;
+}
+.btn-center { 
+    margin-top: 56px;
+}
+.active-menu { 
+    color:#FF8008;
+    border-bottom: 1px solid #FF8008;
+ }
