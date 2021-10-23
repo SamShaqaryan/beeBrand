@@ -4,6 +4,9 @@
     padding:0;
     box-sizing: border-box;
 }
+body {
+    background-color: white;
+}
 .text-align-center{ 
     text-align: center;
 }
@@ -38,3 +41,55 @@ text-transform: uppercase;
     color:#FF8008;
     border-bottom: 1px solid #FF8008;
  }
+
+     
+.button{
+    position: relative;
+      display:block;
+      background: transparent;
+      width:240px;
+      line-height:60px;
+      text-align:center;
+      font-size:15px;
+      text-decoration:none;
+      text-transform:uppercase;
+      margin:40px auto;
+  }
+  .button:before, .button:after {
+    background: linear-gradient(89.93deg, #FF8008 -65.4%, #FFC837 99.88%, rgba(255, 255, 255, 0) 99.88%, #FFC837 99.88%);
+      width:230px;
+    left: 0px;
+      height:27px;
+    z-index: -1;
+  }
+  
+  
+  .violet:before,.violet:after {
+      border: 3px solid transparent;
+  }
+  
+  
+  .button:before{
+    position: absolute;
+    content: '';
+    border-bottom: none;
+    -webkit-transform: perspective(15px) rotateX(5deg);
+    -moz-transform: perspective(15px) rotateX(5deg);
+    transform: perspective(15px) rotateX(5deg);  
+  }
+  .button:after{
+    position: absolute;
+    top: 32px;
+    content: '';
+    -webkit-transform: perspective(15px) rotateX(-5deg);
+    -moz-transform: perspective(15px) rotateX(-5deg);
+    transform: perspective(15px) rotateX(-5deg);
+  }
+  
+  
+  .button{
+      color:#000;
+  }
+  
+  
+  

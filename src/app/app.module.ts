@@ -7,6 +7,7 @@ import { HpPortfolioComponent } from './pages/home-page/hp-portfolio/hp-portfoli
 import { HpPartnersComponent } from './pages/home-page/hp-partners/hp-partners.component';
 import { HpServicesComponent } from './pages/home-page/hp-services/hp-services.component';
 import { MenuComponent } from './pages/menu/menu.component';
+import { HpPricingComponent } from './pages/home-page/hp-pricing/hp-pricing.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MenuComponent } from './pages/menu/menu.component';
     HpPortfolioComponent,
     HpPartnersComponent,
     HpServicesComponent,
-    MenuComponent
+    MenuComponent,
+    HpPricingComponent
   ],
   imports: [
     BrowserModule

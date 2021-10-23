@@ -8,15 +8,20 @@
         <div class="item"><a routerLink="/about" routerLinkActive="active-menu">ABOUT US</a></div>
         <div class="item"><a routerLink="/contacts" routerLinkActive="active-menu">CONTACTS</a></div>
 
-        <!-- <div class="languages">
-            <select name="languages">
-                <option>ENG </option>
-                <option> ARM </option>
-                <option> RU </option>
-            </select>
-        </div> -->
+
     </div>
-    <div class="menu-toggle" [ngClass]={'display: opened'}>
+
+    <div class="languages">
+        <select name="languages">
+            <option>ENG </option>
+            <option> ARM </option>
+            <option> RU </option>
+        </select>
+    </div>
+    <div class="menu-toggle">
         <div class="hamburger"></div>
     </div>
 </div>
+
+<app-hp-services></app-hp-services>
+<app-hp-pricing></app-hp-pricing>
